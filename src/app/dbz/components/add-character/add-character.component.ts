@@ -17,7 +17,8 @@ export class AddCharacterComponent {
     power: 0
   };
 
-  emitCharacter() {
+  emitCharacter():void {
+    //debugger; // Add a breakpoint here for debugger
     console.log(this.character);
 
     if(this.character.name.length === 0)  return;
